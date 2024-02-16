@@ -1,0 +1,58 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+}
+html {
+  font-family: monospace;
+}
+body {
+  height: 200vh;
+}
+.hero-container {
+  background-image: url(./images/background-hero.svg);
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+
+.text-container {
+  position: relative;
+  top: 10px;
+  transform: translate(-50%, -50%);
+
+  width: 100%;
+}
+.head-1 {
+  margin-top: 30px;
+}
+.head-2 {
+  margin-top: 100px;
+}
+.head-3 {
+  margin-top: 30px;
+}
+.img-1 {
+  width: 400px;
+}
+
+.section-container {
+  margin-top: 200px;
+}
+.footer-container {
+margin-left: 150px;
+  position: absolute;
+}
+.img-container {
+  position: relative;
+  bottom: -100px;
+}
+.footer-text {
+  position: relative;
+  left: 5%;
+  bottom: -300px;
+  transform: translate(-50%, -50%);
+}
+
